@@ -1,0 +1,6 @@
+[
+  {
+    "Action": ["dynamodb:GetItem", "dynamodb:GetRecords", "dynamodb:Scan"],
+    "Resource": ["arn:aws:dynamodb:eu-west-2:177754533438:table/WebPushSubscription-o4mb6n3jxngv5bbc3zeenplw4u-dev"]
+  }
+]

@@ -1,0 +1,5 @@
+type WebPushSubscription @model @auth(rules: [{allow: public, operations: [create]}]) {
+  id: ID!
+  topic: String
+  subscription: String
+} 
